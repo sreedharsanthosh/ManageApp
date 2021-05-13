@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Be Vietnam", sans-serif;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: opacity 0.5s ease;
+}
+
+.nav-links {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.start {
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background: hsl(12, 88%, 59%);
+  transition: background 1s ease;
+}
+
+.start:hover {
+  background: hsl(12, 100%, 71%);
+}
+
+.home {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-text {
+  width: 40vw;
+  padding: 1rem 1rem;
+}
+
+.home-text h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  color: hsl(228, 39%, 23%);
+}
+
+.home-text p {
+  color: hsl(227, 12%, 61%);
+  line-height: 2rem;
+  margin: 3vh 0vh;
+  width: 70%;
+}
+
+.capsule-img {
+  position: absolute;
+  right: -10vh;
+  top: -5vh;
+  z-index: -4;
+  width: 50vw;
+}
+
+.home-img {
+  width: 50vw;
+}
+
+.specialities {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: auto;
+}
+
+.qualities-text {
+  width: 40vw;
+}
+
+.qualities-text h1 {
+  font-size: 2.5rem;
+  color: hsl(228, 39%, 23%);
+}
+
+.qualities-text p {
+  color: hsl(227, 12%, 61%);
+  line-height: 1.5rem;
+}
+
+.qualities-container {
+  width: 50vw;
+}
+
+.num {
+  padding: 0rem 1rem;
+  height: 12%;
+  border-radius: 2rem;
+  background: hsl(12, 88%, 59%);
+  margin: 0vh 2vh;
+}
+
+.quality-card-text h1 {
+  color: hsl(228, 39%, 23%);
+}
+
+.quality-card-text p {
+  color: hsl(227, 12%, 61%);
+}
+
+.qualities-card {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0vh;
+}
+
+.testimonials {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10vh 0vh;
+}
+
+.testimonials h1 {
+  color: hsl(228, 39%, 23%);
+  font-size: 2.6rem;
+  margin: 3vh 0vh;
+}
+
+.scrollable-section {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  width: 30vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0vh 4vh;
+}
+
+.card img {
+  width: 35%;
+}
+
+.card p {
+  position: relative;
+  left: 0vh;
+  width: 80%;
+  text-align: left;
+  color: hsl(227, 12%, 61%);
+}
+
+.prev {
+  padding: 0.7rem 2rem;
+  background: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: hsl(228, 39%, 23%);
+}
+.next {
+  padding: 0.7rem 2rem;
+  background: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  margin: 4vh 0vh;
+  font-size: 2rem;
+  color: hsl(228, 39%, 23%);
+}
+
+.bottom-container {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: hsl(12, 88%, 59%);
+}
+
+.bottom-container h1 {
+  width: 50%;
+  font-size: 2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.white-start {
+  background: white;
+  color: hsl(12, 88%, 59%);
+}
+
+.white-start:hover {
+  background: rgb(185, 185, 185);
+}
+
+footer {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: hsl(233, 12%, 13%);
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.icons {
+  width: 10vw;
+  line-height: 2rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  flex-wrap: wrap;
+  line-height: 2rem;
+  height: 20vh;
+  width: 50vw;
+}
+
+.footer-typical {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vw;
+}
+
+#footer-input {
+  width: 20vw;
+  height: 7vh;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.4rem 2rem;
+}
+
+#submit {
+  background: hsl(12, 88%, 59%);
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  margin: 1vh 4vh;
+}
+
+.footer-typical h5 {
+  font-size: 0.7rem;
+  font-weight: 10;
+}
+
+.hamburger {
+  position: fixed;
+  right: 3vw;
+  top: 3vh;
+  display: none;
+}
+
+.nav-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media screen and (max-width: 700px) {
+  .hamburger {
+    display: block;
+  }
+  nav {
+    position: fixed;
+    height: 90vh;
+    width: 50vw;
+    right: 0vh;
+    top: 9vh;
+    background: rgb(107, 6, 6);
+    flex-direction: column;
+    z-index: 6;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .nav-links {
+    flex-direction: column;
+    height: 70%;
+  }
+  .capsule-img {
+    display: none;
+  }
+  .home {
+    height: auto;
+  }
+  .home-text {
+    width: 80vw;
+  }
+  .home-img {
+    width: 100vw;
+  }
+  .home-text p {
+    width: 100%;
+  }
+  .home-img img {
+    width: 100vw;
+  }
+  .home-text h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .qualities-text {
+    width: 90vw;
+  }
+  .qualities-container {
+    width: 100vw;
+  }
+  .qualities-card {
+    width: 90vw;
+  }
+  .qualities-text h1 {
+    font-size: 2rem;
+  }
+  .testimonials h1 {
+    font-size: 2rem;
+  }
+  .scrollable-section {
+    flex-direction: column;
+  }
+  .card {
+    width: 90vw;
+  }
+  .prev,
+  .next {
+    display: none;
+  }
+  footer {
+    height: auto;
+    padding: 5vh 2vh;
+    .logo {
+      width: 50%;
+      margin: 0vh 4vh;
+    }
+  }
+  .icons {
+    width: 90vw;
+  }
+  .footer-nav {
+    width: 80vw;
+    margin: 5vh 0vh;
+    height: 30vh;
+  }
+  .footer-typical {
+    width: 100vw;
+  }
+  #footer-input {
+    width: 80vw;
+    margin: 3vh 0vh;
+  }
+}
